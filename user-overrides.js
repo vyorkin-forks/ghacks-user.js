@@ -1,6 +1,9 @@
 /* 0302a: enable auto-INSTALLING Firefox updates [NON-WINDOWS FF65+] */
 user_pref("app.update.auto", true);
 
+/* 0801: enable location bar using search */
+user_pref("keyword.enabled", true);
+
 /* 0903: set how often Firefox should ask for the master password
  * 0=the first time (default), 1=every time it's needed, 2=every n minutes (see 0904) ***/
 user_pref("security.ask_for_password", 0);
