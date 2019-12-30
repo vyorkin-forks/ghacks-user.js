@@ -39,6 +39,8 @@ user_pref("media.getusermedia.audiocapture.enabled", true);
  * [2] https://bugzilla.mozilla.org/1528289 */
 user_pref("dom.event.clipboardevents.enabled", true);
 
+/* 2404: Enable clipboard commands (cut/copy) from "non-privileged" content [FF41+] */
+user_pref("dom.allow_cut_copy", true);
 
 /* 2803: set what items to clear on shutdown (if 2802 is true) [SETUP-CHROME]
  * [NOTE] If 'history' is true, downloads will also be cleared regardless of the value
